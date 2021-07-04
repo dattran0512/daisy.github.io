@@ -14,6 +14,7 @@
 
 body {
   width: 100%;
+  /* height:100%; */
   font-family: BeVietnam;
   color: white;
   background-image: linear-gradient(180deg,#333,#ccc);
@@ -96,12 +97,15 @@ body {
 
 #row {
   width: 100%;
-  max-width: 600px;
+  /* max-width: 60; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
+  /* padding:10px; */
+  /* padding-top: 0.2rem; */
+  /* padding-bottom: 0.2rem; */
+	  /* padding-left:10%; */
+	  padding-right:10%;
   align-items: center;
   border: 3px solid lightyellow;
     margin-bottom: 10px;
@@ -110,7 +114,7 @@ body {
 #rowl img{
   width: 60px;
   height: 60px;
-  margin-left: 80px;
+  margin-left: 20px;
 }
 
 #rowr {
@@ -119,7 +123,11 @@ body {
 }
 
 #td {
-  font-size: 1.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#nd {
+  font-size: 0.55rem;
   font-weight: bold;
 }
 #d {
@@ -139,13 +147,14 @@ body {
   color: #949494;
   text-align: center;
 }
- #lang {
- display: flex; }
+ /* #lang { */
+ /* display: flex; } */
 a{
   text-decoration: none;
   color: white;
   display: inline-block;
   width: 50%;
+  /* padding-right:250; */
 }
 
 .bbb{
