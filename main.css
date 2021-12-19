@@ -1590,6 +1590,7 @@
   z-index: 1;
   pointer-events: none;
 }
+/*image background*/
 :root .app-1q1i1E::before {
   left: 0;
   top: 0;
